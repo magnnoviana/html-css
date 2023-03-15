@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Lovely';
+            src: url('fonts/Lovely Day.ttf') format(truetype), url('fonts/Lovely Day.otf') format(Opentype);
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de formato
+            * Opentype (0tf)
+            * truetype (ttf)
+            * embedded-opentype
+            * truetype-aat (aplle advanced Typography)
+            * sgv
+
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Lovely', Times, serif;
+            font-size: 3m;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem harum provident at, dicta minus a, nulla, unde dolore ipsum excepturi impedit. Sit, odit? Eveniet hic ipsam amet veniam asperiores officiis!</p>
+    
+</body>
+</html>
