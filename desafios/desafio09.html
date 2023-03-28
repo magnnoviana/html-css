@@ -12,7 +12,7 @@
 
         table {
             border-collapse: collapse;
-            width: 500px;
+            width: 600px;
         }
 
         caption {
@@ -22,10 +22,20 @@
             padding: 5px;
         }
 
+        thead {
+            background-color: darkgray;
+            color: white;
+        }
+
         td, th {
             border: 1px solid black;
             padding: 10px;
-            text-align: center;
+        }
+
+        .m {
+            background-color: darkgray;
+            color: white;
+            text-align: left;
         }
     </style>
 </head>
@@ -34,17 +44,14 @@
     <table>
         <caption>Tabela Escolar</caption>
         <thead>
-            <tfoot>
-                <th colspan="5">Média de Humanas</th>
-                <td>0,0</td>
-            </tfoot>
             <tr>
-                <th>Área</th>
+                <th scope="col">Área</th>
                 <th>Disciplinas</th>
-                <th colspan="2">Notas</th>
+                <th colspan="" scope="
+                col">Notas</th>
                 <th>Notas 1</th>
                 <th>Notas 2</th>
-                <th>Média</th>
+                <th scope="col">Média</th>
             </tr>
         </thead>
         <tbody>
@@ -78,7 +85,7 @@
                 <td>0,0</td>
                 <td>0,0</td>
             </tr>
-            <tr>
+            <tr class="m">
                 <th colspan="5" scope="col">Média de Exatas</th>
                 <td>0,0</td>
             </tr>
@@ -97,6 +104,10 @@
                 <td>0,0</td>
                 <td>0,0</td>
             </tr>
+            <tfoot class="m">
+                <th colspan="5" scope="col">Média de Humanas</th>
+                <td>0,0</td>
+            </tfoot>
         </tbody>
     </table>
 </body>
