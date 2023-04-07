@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo{
+    font-family: sans-serif;
+    margin-left: 6%;
+}
+
+body {
+    background-color: beige;
+    font-family: sans-serif;
+    margin-left: 26%;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+input {
+    border-radius: 4px;
+}
+
+.campo {
+    margin: 1em;
+}
+
+fieldset.grupo .campo {
+    margin: 1em;
+}
+
+

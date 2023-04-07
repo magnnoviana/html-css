@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 id="titulo">Formulário de Inscrição</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset class="grupo">
+            <legend>Dados Pessoais</legend>
+            <div class="campo">
+                <label for="inome" class="grande">Nome:</label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="20" placeholder="nome completo" required><br>
+            </div>
+
+            <div class="campo">
+                <label for="iemail" class="grande">E-mail:</label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required><br>
+            </div>
+
+            <div class="campo">
+                <label for="iend" class="grande">Endereço:</label>
+                <input type="text" name="end" id="iend" minlength="5" maxlength="25" placeholder="endereço completo" required><br>
+            </div>
+
+            <div class="campo">
+                <label for="icid" class="grande">Cidade:</label>
+                <input type="text" name="cid" id="icid" required> <br>
+            </div>
+
+            <div class="campo">
+                <label for="itel" class="grande">Telefone:</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxxxx-xxxx">
+            </div>
+        </fieldset>
+
+        <fieldset class="grupo">
+            <legend>Formação Acadêmica</legend>
+            <div class="campo">
+                <label for="imed">Ensino Médio</label>
+                <input type="radio" name="formação" id="imed" required><br>
+            </div>
+
+            <div class="campo">
+                <label for="isup">Ensino Superior</label>
+                <input type="radio" name="formação" id="isup" required>
+            </div>
+        </fieldset>
+
+        <fieldset class="grupo">
+            <legend>Sexo</legend>
+            <div class="campo">
+                <label for="isxmas">Masculino</label>
+                <input type="radio" name="sexo" id="isxmas" required> <br>
+            </div>
+
+            <div class="campo">
+                <label for="isxfem">Feminino</label>
+                <input type="radio" name="sexo" id="isxfem" value="F" checked required>
+            </div>
+        </fieldset>
+
+        <fieldset class="grupo">
+            <legend>Login</legend>
+            <div class="campo">
+                <label for="iusu">Usuário</label>
+                <input type="text" name="usu" id="iusu" placeholder="entre com seu login"> <br>
+            </div>
+            
+            <div class="campo">
+                <label for="isen">Senha</label>
+                <input type="password" name="sen" id="isen" min="8" max="15" required>
+            </div>
+        </fieldset>
+        <p class="botao">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
