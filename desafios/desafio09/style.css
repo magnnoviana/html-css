@@ -7,8 +7,8 @@
 
 #titulo{
     font-family: sans-serif;
-    margin-left: 16%;
-    font-size: 29px;
+    margin-left: 14%;
+    font-size: 25px;
 }
 
 body {
@@ -17,12 +17,12 @@ body {
     margin-left: 20px;
     margin-top: 1.2%;
     justify-content: center;
+    display: block;
 }
 
 form {
     background-color: rgba(152, 255, 255, 0.829);
-    width: 500px;
-    height: 540px;
+    display: block;
     border: 1.3px solid black;
     margin-left: 10%;
     padding-top: 2%;
