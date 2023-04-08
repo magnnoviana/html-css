@@ -7,29 +7,31 @@
 
 #titulo{
     font-family: sans-serif;
-    text-align: center;
+    margin-left: 16%;
+    font-size: 29px;
 }
 
 body {
     background-color: beige;
     font-family: sans-serif;
     margin-left: 20px;
-    margin-top: 3%;
+    margin-top: 1.2%;
     justify-content: center;
 }
 
 form {
     background-color: rgba(152, 255, 255, 0.829);
+    width: 500px;
+    height: 540px;
     border: 1.3px solid black;
-    margin-left: 15%;
+    margin-left: 10%;
     padding-top: 2%;
-    margin-right: 15%;
-    
-   
+    margin-right: 15%; 
 }
 
 input {
     border-radius: 5px;
+    border-style: hidden;
 }
 
 .campo {
