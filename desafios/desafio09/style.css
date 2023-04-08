@@ -22,7 +22,6 @@ body {
 
 form {
     background-color: rgba(152, 255, 255, 0.829);
-    display: block;
     border: 1.3px solid black;
     margin-left: 10%;
     padding-top: 2%;
@@ -30,7 +29,7 @@ form {
 }
 
 input {
-    border-radius: 5px;
+    border-radius: 2px;
     border-style: hidden;
 }
 
@@ -45,7 +44,7 @@ fieldset.grupo .campo {
 }
 
 .grupo {
-    margin: 10px;
+    margin: 12px;
 }
 
 .botao {
