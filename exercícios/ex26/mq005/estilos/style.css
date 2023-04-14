@@ -15,8 +15,13 @@ header {
 }
 
 header > h1 {
-    padding: 10px;
+    background-image: url('../imagens/coliseu.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
     text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: white;
 }
 
 i#burguer {
@@ -43,8 +48,8 @@ menu > ul {
 
 menu > ul > li> a {
     display: block;
-    padding: 8px;
-    margin-left: 8px;
+    padding: 6px;
+    margin-left: 4px;
     text-decoration: none;
     text-align: center;
     background-color: #00635A;
@@ -59,11 +64,12 @@ menu > ul > li > a:hover {
 }
 
 main {
-    width: 90vw;
+    width: 85vw;
     background-color: white;
     margin: auto;
     padding: 10px;
     border-radius: 8px;
+    line-height: 1.6em;
 }
 
 article > h2 {
