@@ -7,15 +7,15 @@
 }
 
 body, html {
-    background-color: #28ecd9b4;
+    background-color: lightgray;
 }
 
 header {
-    background-color: #009688;
+    background-color: darkgray;
 }
 
 header > h1 {
-    background-image: url('../imagens/aurora-boreal.jpg');
+    background-image: url('../imagens/coliseu.jpg');
     background-size: cover;
     background-position: center center;
     padding: 120px;
@@ -25,16 +25,16 @@ header > h1 {
 }
 
 i#burguer {
-    background-color: #023a35;
-    color: white;
+    background-color: gray;
+    color: black;
     text-align: left;
     padding: 10px;
     display: block;
 }
 
 i#burguer:hover {
-    background-color: #00ffff;
-    color: black;
+    background-color: rgb(92, 91, 91);
+    color: white;
     cursor: pointer;
 }
 
@@ -52,15 +52,15 @@ menu > ul > li> a {
     margin-left: 4px;
     text-decoration: none;
     text-align: center;
-    background-color: #00635A;
-    color: white;
-    border-top:2px solid #32A89C;
+    background-color: gray;
+    color: black;
+    border-top:1px solid darkgrey;
     border-radius: 10px;
 }
 
 menu > ul > li > a:hover {
-    background-color: #44E3D3;
-    color: black;
+    background-color: dimgrey;
+    color: white;
 }
 
 main {
