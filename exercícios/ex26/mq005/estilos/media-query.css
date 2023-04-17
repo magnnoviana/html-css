@@ -4,18 +4,30 @@
 @media screen and (min-width: 768px) and (max-width: 992) {
 
     i#burguer {
-        display: none;
-    }
-    menu {
-        display: block;
+       display: none;
     }
 }
+    .itens {
+        display: block;
+    }
 
 menu > ul > li {
     display: inline-block;
 }
 
 @media screen and (min-width: 992) and (max-width: 1200) {
+
+    i#burger {
+        display: none;
+    }
+
+    .itens {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
 
 }
 

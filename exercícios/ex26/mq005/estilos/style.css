@@ -82,6 +82,18 @@ article > p {
     text-indent: 30px;
 }
 
+article > a {
+    font-size: 1.2em;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+article > a:hover {
+    background-color: rgb(150, 148, 148);
+    color: white;
+}
+
 .autor {
     padding-top: 10px;
     text-indent: 10px;

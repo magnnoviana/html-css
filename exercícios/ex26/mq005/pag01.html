@@ -5,16 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apologetica</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 
     </style>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Escrituralismo</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </menu>
     </header>
-    <main id="pag02">
+    <main>
         <article>
             <h1>Behaviorismo</h1>
             <p class="paragrafo">Por Gordon H. Clark</p>
@@ -34,7 +44,26 @@
             </p>
             <p>Pelo mesmo motivo, é impossível que uma pessoa tenha o mesmo pensamento duas vezes. Uma vez que o meu movimento de hoje não é ipso facto do meu suspiro de ontem, nunca consigo recuperar o pensamento de ontem. Isso torna a memória impossível, evita comparações entre sensações diferentes e destrói a base do conhecimento.
             </p>
+            <a href="index.html">Voltar</a>
         </article>
     </main>
+    <script>
+
+function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
 </body>
 </html>
